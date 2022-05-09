@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Corrida de Carros</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+  apiKey: "AIzaSyAJd_cv7JVZnJ2AoF0BIHIhEBzGkE9FIAQ",
+  authDomain: "velozes-e-furiosos-7644b.firebaseapp.com",
+  databaseURL: "https://velozes-e-furiosos-7644b-default-rtdb.firebaseio.com",
+  projectId: "velozes-e-furiosos-7644b",
+  storageBucket: "velozes-e-furiosos-7644b.appspot.com",
+  messagingSenderId: "268232156609",
+  appId: "1:268232156609:web:e4273c7f788dd072337b40"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+    <script src="./js/jogo.js"></script>
+    <script src="./js/formulario.js"></script>
+    <script src="./js/jogador.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
